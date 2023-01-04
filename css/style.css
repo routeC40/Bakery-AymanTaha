@@ -1,0 +1,388 @@
+/* Week Two  */
+/* Assignments One By Ayman Taha 15/12/2022  */
+
+/* Start Globle Rules */
+body {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ################## */
+/* Start Section One */
+.section-1 {
+    margin-bottom: 150px;
+}
+.home-img {
+    width: 100%;
+    height: 680px;
+}
+
+.header {
+    width: 100%;
+    display: block;
+    margin-top: -669px;
+    position: fixed; 
+}
+
+.logo a img {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.nav{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -32px;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.title-text  {
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-top: -550px;
+}
+
+.title-text p {
+    color: #ccc;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.title-text h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.btn button {
+    width: 120px;
+    height: 55px;
+    padding: 12.5px 0;   
+    margin-top: 20px; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn button:hover{
+background-color: #fff;
+color: #000;
+}
+
+.btn .btn-first{
+    background: #8e7754;
+    color: #fff;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+}
+
+.btn .btn-last {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 5px;
+}
+
+.btn-scroll{
+    display: block;
+    width: 32px;
+    height: 50px;
+    position: relative;
+    z-index: 6;
+    margin-top: 70px;
+    z-index: 5;
+    margin-inline: auto;
+    border: 2px solid #fff;
+    border-radius: 24px;
+}
+
+.btn-scroll div {
+    width: 5px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px auto;
+    border-radius: 40%;
+}
+.tools{
+    background-color: #fff;
+    width: 40px;
+    height: 100px;
+    position: fixed;
+    top: 280px;
+    right: 0px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.tools a i {
+    font-size: 25px;
+    padding-inline: 5px;
+    padding-block: 10px;
+    color: #000;
+}
+.tools a i:hover {
+    color: #00aced;
+}
+/* End Section One */
+
+/* ################## */
+/* Start Section Two */
+.section-2 {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.section-2 img {
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    margin-left: 110px;
+}
+
+.point {
+    display: inline-block;
+    width: 46%;
+    margin-left: 0px;
+    text-align: center;
+} 
+
+.point h2 {
+    margin-bottom: 30px;
+}
+
+.point .text-p,
+.point .list {
+    font-family: Alegreya Sans,sans-serif,monospace;  /* web site route   no work...*/
+    color: #686868;
+    padding-inline: 40px;
+    font-size: 18px;
+}
+
+.point .text-p {
+    line-height: 2.2;
+    margin-bottom: 40px;                              
+}
+
+.point .list {
+    text-align: left;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.point .list i {
+    color: #8e7754;
+    margin-right: 20px;
+    border:1px solid #686868;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* End Section TWo */
+
+/* ################### */
+/* Start Section Three */
+.section-3 {
+    display: inline-block;
+    background-color: #f8f8f8;
+    padding-block: 80px;
+}
+
+.section-3 img {
+    display: inline-block;
+    width: 650px;
+
+}
+
+.point-3 {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+} 
+
+.point-3 .text-p-3{
+    display: inline-block;
+    text-align: center;
+    font-family: Alegreya Sans,sans-serif,monospace;  /* web site route   no work...*/
+    color: #686868;
+    padding-inline: 60px;
+    width: 80%;
+    font-size: 18px;
+    line-height: 2.2;
+
+}
+/* End Section Three */
+
+/* ################### */
+/* Start Section Four */
+.section-4 {
+    text-align: center;
+    padding-block: 70px;
+    color: #686868;
+    
+}
+
+.section-4 p {
+    font-size: 18px;
+}
+.products {
+    padding-top: 40px;
+    padding-right: 100px;
+}
+.product {
+    margin-left: 95px;
+    float: left;
+    width: 26%;
+}
+
+.product p {
+    line-height: 2.2;
+    font-size: 18px;
+}
+.clear{
+    clear: both;
+}
+
+.products img {
+    width: 400px;
+}
+
+/* End Section Four */
+
+/* ################### */
+/* Start Section Five */
+.section-5 {
+    display: inline-block;
+    background-color: #f8f8f8;
+    padding-block: 80px;
+}
+
+.section-5 img {
+    display: inline-block;
+    width: 650px;
+}
+
+.point-5 {
+    float: left;
+    width: 50%;
+    text-align: center;
+} 
+
+.section5-img {
+    float: left;
+    width: 50%;
+}
+
+.point-5 .text-p-5{
+    font-family: Alegreya Sans,sans-serif,monospace;  /* web site route   no work...*/
+    color: #686868;
+    padding-inline: 60px;
+    font-size: 18px;
+    line-height: 2.2;
+}
+
+.point-5 .list {
+    font-family: Alegreya Sans,sans-serif,monospace;  /* web site route   no work...*/
+    color: #686868;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.point-5 .list.spe {
+    margin-left: 82px;
+}
+.point-5 .list i {
+    color: #fff;
+    background-color: #8e7754;
+    margin-right: 20px;
+    border:1px solid #686868;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* End Section Five */
+
+/* ################### */
+/* Start Section Six */
+.section-6 .lists {
+    background-color: #403d38;
+    padding: 60px;
+}
+
+.section-6 .lists h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.section-6 .list {
+    float: left;
+    width: 24%;
+    line-height: 1.8;
+}
+
+.section-6 .list p,
+.section-6 .list a {
+    color: #969696;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(54, 49, 49, 0.559);
+}
+.section-6 .list a:hover {
+    color: #fff;
+}
+/* End Section Six */
+
+/* ################### */
+/* Start Section Seven */
+.section-7 {
+    text-align: center;
+    background-color: #353330;
+    padding-block: 40px;
+}
+
+.section-7 img {
+width: 150px;
+
+}
+
+.section-7 p {
+    color: #969696;
+    font-size: 16px;
+}
+
+.section-7 .social  i{
+    color: #8c8a86;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background-color: #484540;
+}
+/* End Section Seven */
+.section-7 .social .face:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.section-7 .social .google:hover {
+background-color: #dd4b32;
+color: #fff;
+}
+
+.section-7 .social .linkedin:hover { 
+background-color: #007bb5;
+color: #fff;
+}
+
+.section-7 .social .twitter:hover{
+background-color: #00aced;
+color: #fff;
+}
+/* End Section Seven */
